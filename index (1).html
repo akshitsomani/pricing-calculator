@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ultima Ember Tool</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Ultima Ember - Pricing Calculator</h1>
+
+    <form id="shipmentForm">
+      <label>Model Name:</label>
+      <input type="text" id="modelName" required />
+
+      <label>Invoice Value (INR):</label>
+      <input type="number" id="invoiceValue" required />
+
+      <label>Custom Duty (INR):</label>
+      <input type="number" id="customDuty" required />
+
+      <label>Freight (INR):</label>
+      <input type="number" id="freight" required />
+
+      <label>Insurance (INR):</label>
+      <input type="number" id="insurance" required />
+
+      <label>CHA Charges (INR):</label>
+      <input type="number" id="chaCharges" required />
+
+      <label>Quantity:</label>
+      <input type="number" id="quantity" required />
+
+      <button type="submit">Calculate Pricing</button>
+    </form>
+
+    <div id="resultBox" class="result-box"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
